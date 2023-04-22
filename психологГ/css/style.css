@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: color 0.2s;
+    transition: width 0.2s;
+  }
+section{
+    background-color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+}
+.componentWrapper{
+    margin-top:20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttonStart button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 5%;
+    background-color: #D9D9D9;
+    width:150px;
+  }
+  .column1 {
+    margin-right: 20px;
+  }
+  
+  .column2 {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  
+  .column3 {
+    margin-left: 20px;
+  }
+  .buttonGender button {
+    width: 70px;
+  }
+  .buttonFemale button{
+    margin-top:10px;
+    background-color:#F5ABE0;
+    
+  }
+  button{
+    border-radius: 5px;
+
+  }
+  input{
+    border-radius: 5px;
+    background-color: #E0E9F6;
+  }
+  
+  .buttonMale button{
+    background: #6EA7DC;
+    margin-top:10px;
+
+  }
+  .ageField{
+    padding-top:10px;
+
+  }
+  .nameField{
+    padding-top:10px;
+
+  }
+  .numOfGroup{
+    padding-top:10px;
+
+  }
+  .surname{
+    padding-top:10px;
+
+  }
+  .numOfGroupField{
+    padding-top:10px;
+
+  }
+  .surnameField{
+    padding-top:10px;
+
+  }
+
+  @media (min-width: 1920px) {
+    .buttonStart button{
+        margin-top: 70px;
+    }
+  }
+  @media (max-width: 480px) {
+
+    .componentWrapper{
+        margin-top:20px;
+
+        display:grid;
+        justify-content: center;
+        align-items: center;
+    }
+    input{
+        width: 280px;
+        height: 30px;
+    }
+   p{
+    font-size: 28px;
+   }
+    .you{
+       margin-left: 20px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+      }
+      button{
+        
+        font-size: 20px;
+      }
+      
+      .buttonGender{
+        padding-bottom: 10px;
+        margin-left: 10px;
+        display:flex;
+        align-items: center;
+      }
+      .buttonGender button{
+        width: 100px;
+      }
+      .buttonFemale{
+        
+        margin-left: 45px;
+      }
+      .buttonStart button{
+        margin-top:0px;
+       width: 250px;
+       height: 30px;
+
+    }
+   }
+
+   @media (max-width: 1200px) {
+    .buttonStart{
+        margin-top: 30px;
+
+    }
+}
+    @media (max-width: 770px) {
+        .buttonStart{
+            margin-top: 70px;
+    
+        }
+    
+   }
+
+
+
+
+   
